@@ -26,11 +26,12 @@ const Property = ({
       <Link href={`/property/${externalID}`} passHref>
         <Flex
           flexWrap={"wrap"}
-          w={"420px"}
+          className="w-[300px] md:w-[420px] lg:w-[420px]"
           p={"5"}
           paddingTop={"0"}
           justifyContent={"flex-start"}
           cursor={"pointer"}
+          alignItems={"center"}
         >
           <Box
             objectFit={"fill"}
