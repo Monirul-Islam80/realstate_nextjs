@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <link rel="icon" type="image/svg" sizes="16x16" href="/drawing-5.svg" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"

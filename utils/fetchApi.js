@@ -4,7 +4,7 @@ export const getData = async (url) => {
   const burl = "https://bayut.p.rapidapi.com" + url;
   const { data } = await axios.get(burl, {
     headers: {
-      "X-RapidAPI-Key": "7e65851df5msh4f3df574578c5fcp1f9ba2jsnf74d6ccf2973",
+      "X-RapidAPI-Key": "4b403691f5mshbed8d676340c444p18cc5cjsnd33e8cec30b5",
       "X-RapidAPI-Host": "bayut.p.rapidapi.com",
     },
   });
